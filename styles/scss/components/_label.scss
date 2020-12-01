@@ -1,0 +1,12 @@
+.form-group {
+	margin: 0 auto;
+	position: relative;
+}
+label {
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	font-size: 15px;
+	font-weight: 300;
+	color: $color-blue;
+}

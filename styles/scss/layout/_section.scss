@@ -1,0 +1,71 @@
+.sign-section {
+	width: 576px;
+	color: $color-gray;
+	margin: 147px auto;
+	background-color: $color-white;
+	border-radius: 6px;
+}
+.sign-up {
+	width: 354px;
+	margin: 0 auto;
+}
+.sign-up h1 {
+	font-size: 41px;
+	text-align: center;
+	padding: 94px 0 0 0;
+	font-weight: normal;
+}
+.sign-up h2 {
+	font-size: 23px;
+	font-weight: 300;
+	color: $color-nobel;
+	text-align: center;
+	margin: 2px 0 42px;
+}
+.sign-section p {
+	font-size: 17px;
+	color: $color-dimgray;
+	text-align: center;
+	padding: 0 0 87px;
+}
+.sign-section a {
+	text-decoration: none;
+	color: $color-blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.line {
+	border: 1px solid $color-fordGray;
+	width: 551px;
+	margin: 48px auto 50px;
+	opacity: 0.17;
+}
+
+.valid {
+	list-style-type: none;
+	float: left;
+	font-size: 12px;
+	width: 50%;
+	color:$color-nobel ;
+	padding: 0 0 0 27px;
+	position: relative;
+	letter-spacing: 0.1px;
+}
+.lower {
+	margin: 6px 0 0;
+}
+.valid::before {
+	content: "";
+	width: 5px;
+	border-bottom: 3px solid $color-green;
+	height: 11px;
+	border-right: 3px solid $color-green;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 5px;
+}
+.form-group span,
+#passwordError {
+	color: $color-red;
+	position: relative;
+	bottom: 10px;
+}
